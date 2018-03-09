@@ -6,6 +6,11 @@ Container for wkhtmltopdf 0.12.4
 
 ## Fonts
 
+* Courier
+* Arial
+* Roboto
+* Verdana
+* DeJavu
 * OpenSans
 
 
