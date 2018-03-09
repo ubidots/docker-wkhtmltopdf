@@ -3,6 +3,8 @@
 
 Container for wkhtmltopdf 0.12.4
 
+[![nodesource/node](http://dockeri.co/image/ubidots/wkhtmltopdf)](https://hub.docker.com/r/ubidots/wkhtmltopdf/)
+
 
 ## Fonts
 
