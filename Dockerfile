@@ -37,4 +37,4 @@ RUN curl -SL  "https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/${WK
 
 COPY fonts/ /usr/share/fonts/
 
-VOLUME ["/tmp/reports"]
+VOLUME ["/tmp/assets"]
