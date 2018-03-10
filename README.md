@@ -13,6 +13,7 @@ Container for wkhtmltopdf 0.12.4
 * Roboto
 * Verdana
 * DejaVu
+* Inconsolata
 * OpenSans
 
 

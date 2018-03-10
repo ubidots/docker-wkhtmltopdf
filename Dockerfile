@@ -31,12 +31,10 @@ RUN apt-get clean && \
 
 
 WORKDIR /tmp
-
 RUN curl -SL  "https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/${WKHTML2PDF_VERSION}/wkhtmltox-${WKHTML2PDF_VERSION}_linux-generic-amd64.tar.xz" | tar -xJ \
     && cp wkhtmltox/bin/* /usr/bin/ \
     && rm -rf wkhtmltox
 
 COPY fonts/ /usr/share/fonts/
-COPY fonts/ /tmp/
 
 VOLUME ["/tmp/reports"]
