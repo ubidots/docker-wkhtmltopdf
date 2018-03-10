@@ -20,7 +20,7 @@ Container for wkhtmltopdf 0.12.4
 For the full list of fonts:
 
 ```
-docker run --rm wkhtmltopdf fc-list
+docker run --rm ubidots/wkhtmltopdf fc-list
 
 ```
 
@@ -30,6 +30,6 @@ The container has a volumen that you can use for put images and other assets tha
 
 ```
 echo "<html><body><h1>Hello World</h1></body></html>" \
-     | docker run -i --rm -v /tmp/reports:/tmp/reports wkhtmltopdf /usr/bin/wkhtmltopdf - - > hello.pdf
+     | docker run -i --rm -v /tmp/reports:/tmp/reports ubidots/wkhtmltopdf /usr/bin/wkhtmltopdf - - > hello.pdf
 ````
 
