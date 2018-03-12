@@ -26,10 +26,9 @@ docker run --rm ubidots/wkhtmltopdf fc-list
 
 ## Usage
 
-The container has a volumen that you can use for put images and other assets that you need to create the PDF _/tmp/reports_
+The container has a volumen that you can use for put images and other assets that you need to create the PDF _/tmp/assets_
 
 ```
 echo "<html><body><h1>Hello World</h1></body></html>" \
-     | docker run -i --rm -v /tmp/reports:/tmp/reports ubidots/wkhtmltopdf /usr/bin/wkhtmltopdf - - > hello.pdf
+     | docker run -i --rm -v /tmp/assets:/tmp/assets ubidots/wkhtmltopdf /usr/bin/wkhtmltopdf - - > hello.pdf
 ````
-
